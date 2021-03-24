@@ -31,5 +31,155 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #242424;
+	font-family: 'Lora', serif;
 }
 
+.content {
+	max-width: 1100px;
+	padding: 80px 0;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 170px;
+}
+
+.header {
+	display: flex;
+	padding: 30px 0;
+	max-width: 1100px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.footer {
+	padding: 30px 0;
+	text-align: center;
+	color: whitesmoke;
+	background-color: #303339;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+}
+
+.menu a {
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 20px;
+	color: #242424;
+}
+
+.menu a:hover {
+	background-color: #f195b2;
+}
+
+.hero {
+	background: url(images/cupcake.jpg) no-repeat center;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 52px;
+	color: whitesmoke;
+	font-family: 'Playfair Display', serif;
+	line-height: 1.25;
+}
+
+.motto {
+	color: whitesmoke;
+	font-size: 24px;
+	font-style: italic;
+}
+
+.first {
+	padding-right: 40%;
+}
+
+.second {
+	display: flex;
+}
+
+.left {
+	margin-right: 30px;
+}
+
+h2 {
+	font-size: 36px;
+	color: #3e606b;
+	line-height: 1.25;
+}
+
+h3 {
+	font-size: 18px;
+	color: #3e606b;
+	line-height: 1.25;
+}
+
+.link {
+	color: #f0f0f0;
+	text-decoration: none;
+	padding: 15px 40px;
+	border-radius: 30px;
+	background-color: #f195b2;
+}
+
+.link:hover,
+.link:active {
+	background-color: #d2567d;
+}
+
+.text.one {
+	margin-bottom: 60px;
+}
+
+.offer {
+	background-color: #f0f0f0;
+}
+
+.fourth {
+	display: flex;
+}
+
+.text.two {
+	padding-left: 30px;
+}
+
+.foto {
+	border-radius: 5px;
+}
+
+.product-list {
+	display: flex;
+	max-width: 1100px;
+}
+
+.product-list .product {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.product-list .product img {
+	width: 100%;
+}
+
+.product.one,
+.product.two,
+.product.three {
+	margin-right: 30px;
+}
+
+.product-list h3,
+.product-list p {
+	margin: 20px;
+	text-align: center;
+}
