@@ -108,7 +108,12 @@ h1 {
 	display: flex;
 }
 
-.left {
+.div.left,
+.div.lady-foto {
+	flex-basis: 50%;
+}
+
+.div.left {
 	margin-right: 30px;
 }
 
@@ -149,12 +154,19 @@ h3 {
 	display: flex;
 }
 
+.div.foto-cake,
 .text.two {
-	padding-left: 30px;
+	flex-basis: 50%;
+}
+
+
+.text.two {
+	margin-left: 30px;
 }
 
 .foto {
 	border-radius: 5px;
+	width: 100%;
 }
 
 .product-list {
